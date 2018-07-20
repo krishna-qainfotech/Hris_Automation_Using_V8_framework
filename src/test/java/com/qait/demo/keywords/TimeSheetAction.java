@@ -15,8 +15,8 @@ public class TimeSheetAction extends GetPage{
 	public void clickOnMyProfile()  {
 		 isElementDisplayed("btn_ProfileName");
 		 element("btn_ProfileName").click();
-		 isElementDisplayed("MyProfile");
-		 element("MyProfile").click();
+		 isElementDisplayed("btn_MyProfile");
+		 element("btn_MyProfile").click();
 	}
 	
 	public String getProfileName()  {

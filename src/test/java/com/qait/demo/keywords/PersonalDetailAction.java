@@ -12,7 +12,7 @@ public class PersonalDetailAction extends GetPage{
 	
 	public String getFirstName() {
 		//isElementDisplayed("FirstName");
-		String firstname = element("linkTxt_FirstName").getText();
+		String firstname = element("txt_FirstName").getText();
 		System.out.println(firstname);
 		return  firstname;
 	}

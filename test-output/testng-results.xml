@@ -31,23 +31,23 @@ The application url is :- https://hris.qainfotech.com/]]>
       <![CDATA[TEST PASSED: element btn_ProfileName is displayed.]]>
     </line>
     <line>
-      <![CDATA[TEST PASSED: element MyProfile is displayed.]]>
+      <![CDATA[TEST PASSED: element btn_MyProfile is displayed.]]>
     </line>
     <line>
       <![CDATA[
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14458" started-at="2018-07-19T08:54:42Z" finished-at="2018-07-19T08:54:57Z">
+  <suite name="Default suite" duration-ms="13412" started-at="2018-07-20T07:17:05Z" finished-at="2018-07-20T07:17:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14458" started-at="2018-07-19T08:54:42Z" finished-at="2018-07-19T08:54:57Z">
+    <test name="Default test" duration-ms="13412" started-at="2018-07-20T07:17:05Z" finished-at="2018-07-20T07:17:18Z">
       <class name="com.qait.demo.tests.HrisTestFile">
-        <test-method status="PASS" signature="loadProjectFile()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="loadProjectFile" is-config="true" duration-ms="1054" started-at="2018-07-19T14:24:42Z" finished-at="2018-07-19T14:24:43Z">
+        <test-method status="PASS" signature="loadProjectFile()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="loadProjectFile" is-config="true" duration-ms="858" started-at="2018-07-20T12:47:05Z" finished-at="2018-07-20T12:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadProjectFile -->
-        <test-method status="PASS" signature="IsHrisLoginSuccessfull()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="IsHrisLoginSuccessfull" duration-ms="6576" started-at="2018-07-19T14:24:43Z" finished-at="2018-07-19T14:24:50Z">
+        <test-method status="PASS" signature="IsHrisLoginSuccessfull()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="IsHrisLoginSuccessfull" duration-ms="5821" started-at="2018-07-20T12:47:06Z" finished-at="2018-07-20T12:47:11Z">
           <reporter-output>
             <line>
               <![CDATA[
@@ -77,21 +77,21 @@ The application url is :- https://hris.qainfotech.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- IsHrisLoginSuccessfull -->
-        <test-method status="PASS" signature="IsTimeSheetPageDisplayed()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="IsTimeSheetPageDisplayed" duration-ms="1686" started-at="2018-07-19T14:24:50Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.IsHrisLoginSuccessfull" finished-at="2018-07-19T14:24:52Z">
+        <test-method status="PASS" signature="IsTimeSheetPageDisplayed()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="IsTimeSheetPageDisplayed" duration-ms="1602" started-at="2018-07-20T12:47:11Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.IsHrisLoginSuccessfull" finished-at="2018-07-20T12:47:13Z">
           <reporter-output>
             <line>
               <![CDATA[TEST PASSED: element btn_ProfileName is displayed.]]>
             </line>
             <line>
-              <![CDATA[TEST PASSED: element MyProfile is displayed.]]>
+              <![CDATA[TEST PASSED: element btn_MyProfile is displayed.]]>
             </line>
           </reporter-output>
         </test-method> <!-- IsTimeSheetPageDisplayed -->
-        <test-method status="PASS" signature="checkPersonalDetailsonHris()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="checkPersonalDetailsonHris" duration-ms="53" started-at="2018-07-19T14:24:52Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.IsTimeSheetPageDisplayed" finished-at="2018-07-19T14:24:52Z">
+        <test-method status="PASS" signature="checkPersonalDetailsonHris()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="checkPersonalDetailsonHris" duration-ms="42" started-at="2018-07-20T12:47:13Z" depends-on-methods="com.qait.demo.tests.HrisTestFile.IsTimeSheetPageDisplayed" finished-at="2018-07-20T12:47:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPersonalDetailsonHris -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="closeBrowser" is-config="true" duration-ms="5077" started-at="2018-07-19T14:24:52Z" finished-at="2018-07-19T14:24:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qait.demo.tests.HrisTestFile@27c20538]" name="closeBrowser" is-config="true" duration-ms="5075" started-at="2018-07-20T12:47:13Z" finished-at="2018-07-20T12:47:18Z">
           <reporter-output>
             <line>
               <![CDATA[
